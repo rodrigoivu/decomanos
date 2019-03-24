@@ -146,9 +146,10 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
   }
-  #mainNav.navbar-shrink {
+  /*background-color  determina el color de fondo del menú de navegación*/
+  #mainNav.navbar-shrink { 
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color: rgba(33, 37, 41, 0.7);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #F05F40;
